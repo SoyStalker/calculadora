@@ -1,0 +1,65 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 47, 47);
+    transition: all .5s;
+}
+
+#app {
+    height: 420px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px white;
+    transition: all .5s;
+}
+
+#app:hover {
+    box-shadow: 2px 2px 50px rgb(255, 255, 255);
+}
+
+#app form{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+#app input[type=textfield] {
+    height: 25%;
+    width: 100%;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 1.5px solid white;
+    outline: none;
+}
+
+#app input[type=button], input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+
+#app .naranja {
+    background-color: orangered !important;
+    color: white !important;
+}
+
+#app .gris {
+    background-color: gray !important;
+    color: white !important;
+}
